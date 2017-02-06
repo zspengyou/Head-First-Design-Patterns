@@ -10,10 +10,11 @@ public class MyFrame extends JFrame {
 		super(title);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		this.setSize(300,300);
+		this.setSize(300, 300);
 		this.setVisible(true);
 	}
 
+	@Override
 	public void paint(Graphics graphics) {
 		super.paint(graphics);
 		String msg = "I rule!!";

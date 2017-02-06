@@ -8,7 +8,7 @@ public class GumballMachine {
 	State soldState;
  
 	State state;
-	int count = 0;
+	int count ;
  
 	public GumballMachine(int numberGumballs) {
 		soldOutState = new SoldOutState(this);
@@ -85,8 +85,7 @@ public class GumballMachine {
 		if (count != 1) {
 			result.append("s");
 		}
-		result.append("\n");
-		result.append("Machine is " + state + "\n");
+		result.append("\nMachine is " + state + "\n");
 		return result.toString();
 	}
 }

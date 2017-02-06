@@ -1,5 +1,5 @@
 package headfirst.designpatterns.singleton.chocolate;
- 
+
 public class ChocolateController {
 	public static void main(String args[]) {
 		ChocolateBoiler boiler = ChocolateBoiler.getInstance();
@@ -10,4 +10,5 @@ public class ChocolateController {
 		// will return the existing instance
 		ChocolateBoiler boiler2 = ChocolateBoiler.getInstance();
 	}
+
 }

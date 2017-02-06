@@ -2,6 +2,8 @@ package headfirst.designpatterns.observer.weather;
 
 import java.util.*;
 
+import headfirst.designpatterns.observer.weather.displayElementa.Observer;
+
 public class WeatherData implements Subject {
 	private ArrayList<Observer> observers;
 	private float temperature;
